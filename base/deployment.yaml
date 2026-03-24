@@ -27,7 +27,7 @@ spec:
         - name: my-app
           # image tag จะถูก update โดย CI pipeline (GitHub Actions)
           # โดยใช้ git SHA เสมอ — ไม่ใช้ latest!
-          image: ghcr.io/REPLACE_USERNAME/my-app:latest
+          image: ghcr.io/iamsamitdev/nodejs-backendapp:cd96ca4
           ports:
             - name: http
               containerPort: 3000

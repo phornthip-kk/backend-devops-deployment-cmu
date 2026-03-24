@@ -29,7 +29,7 @@ patches:
 # Override image tag — CI pipeline จะ update ค่านี้อัตโนมัติ
 # (ใช้ git SHA แทน latest)
 images:
-  - name: ghcr.io/REPLACE_USERNAME/my-app
+  - name: ghcr.io/iamsamitdev/nodejs-backendapp:cd96ca4
     newTag: latest   # จะถูกแทนที่ด้วย git SHA โดย CI
 
 # คำสั่งสำหรับ Day 1, Lab 7:
